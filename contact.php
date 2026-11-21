@@ -1,0 +1,70 @@
+<?php include 'header.php'; ?>
+
+<div class="rts-breadcrumb-area bg_image">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="baread-crumb-main-wrapper pt--100">
+                    <div class="inner">
+                        <span class="works">Get In Touch</span>
+                        <h1 class="title rts_hero__title">Contact Now</h1>
+                        <span class="bg-text">Contact Now</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="appoinmnet-area-two rts-section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- appoinment area two start -->
+                <div class="appoinment-area-two plr--120 plr_md--40 plr_sm--30">
+                    <div class="title-area-appoinment">
+                        <span class="pre">Appointment</span>
+                        <h2 class="title mb--0">
+                            Love to hear from you <br>
+                            <span>Get in touch!</span>
+                        </h2>
+                    </div>
+                    <form class="appoinment-h2 rts-slide-up-gsap" action="#">
+                        <div class="input-line">
+                            <div class="input-half">
+                                <label for="name">Your Name*</label>
+                                <input id="name" type="text" placeholder="Andrew Davis Kino...." required>
+                            </div>
+                            <div class="input-half">
+                                <label for="email">Your Email*</label>
+                                <input id="email" type="text" placeholder="info@mighty.net" required>
+                            </div>
+                        </div>
+
+                        <div class="text-area mt--40">
+                            <label for="message">Message*</label>
+                            <textarea id="message" cols="30" rows="10" placeholder="Let tell us about your projects"></textarea>
+                        </div>
+                        <button class="submit-pd"> Send Message </button>
+                    </form>
+                </div>
+                <!-- appoinment area two end -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php include 'footer.php'; ?>
+
+<style>
+    .cta-main-wrapper-three.pt--100.rts-section-gapBottom {
+        display: none;
+    }
+</style>
+
+<script>
+    $(document).ready(function() {
+        $("body").addClass("inner-page")
+        $("body").addClass("contact-page")
+    });
+</script>
