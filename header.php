@@ -293,9 +293,118 @@
 
 
 
+        @media (max-width: 991px) {
+            .rts-banner-area-three-start {
+                overflow: hidden;
+                padding-bottom: 40px;
+            }
+
+            .rts-banner-area-three-start .pt--140 {
+                padding-top: 0 !important;
+            }
+
+            .rts-banner-area-three-start .speen-shape {
+                top: 95px;
+                left: 15px;
+                transform: scale(0.8);
+                transform-origin: top left;
+            }
+
+            .rts-banner-area-three-start .small-shape {
+                top: 110px;
+                left: auto;
+                right: 12%;
+            }
+
+            .banner-content-wrapper-three {
+                padding-top: 215px !important;
+            }
+
+            .banner-content-wrapper-three p.disc {
+                max-width: 65%;
+                color: #ccc;
+                text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+            }
+
+            .banner-content-wrapper-three a.rts-btn.btn-white.rts-btn-2 {
+                background: rgba(20, 20, 20, 0.78) !important;
+                backdrop-filter: blur(4px);
+            }
+
+            .my-image {
+                width: 58vw;
+                max-width: 380px;
+                right: -25px;
+                bottom: 0;
+                opacity: 1;
+            }
+        }
+
         @media (max-width : 600px) {
             .my-image {
-                right: -70px;
+                width: 90vw;
+                max-width: unset;
+                right: -90px;
+                bottom: 0;
+                opacity: 1;
+            }
+
+            .banner-content-wrapper-three p.disc {
+                max-width: 100%;
+                padding-right: 135px;
+            }
+
+            .banner-content-wrapper-three p.disc .hero-role {
+                font-size: 20px !important;
+                line-height: 1.3;
+                margin-bottom: 12px !important;
+            }
+
+            .banner-content-wrapper-three .m-0.flex {
+                display: flex;
+                gap: 10px;
+                flex-wrap: nowrap;
+                width: 100%;
+                margin-top: 20px !important;
+            }
+
+            .banner-content-wrapper-three .m-0.flex .rts-btn.btn-md {
+                padding: 12px 10px;
+                font-size: 13px;
+                line-height: 1.2;
+                flex: 1;
+                min-width: 0;
+                max-width: none;
+                text-align: center;
+                justify-content: center;
+                display: inline-flex;
+                align-items: center;
+                gap: 6px;
+                white-space: nowrap;
+            }
+
+            .banner-content-wrapper-three .m-0.flex .rts-btn.btn-md i {
+                margin-left: 0;
+            }
+        }
+
+        @media (max-width: 359px) {
+            .banner-content-wrapper-three p.disc {
+                padding-right: 110px;
+            }
+
+            .banner-content-wrapper-three p.disc .hero-role {
+                font-size: 18px !important;
+            }
+        }
+
+        @media (max-width: 340px) {
+            .banner-content-wrapper-three .m-0.flex {
+                flex-wrap: wrap;
+            }
+
+            .banner-content-wrapper-three .m-0.flex .rts-btn.btn-md {
+                flex: 1 1 100%;
             }
         }
     </style>

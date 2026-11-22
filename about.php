@@ -39,7 +39,7 @@
                             </h2>
 
                             <p class="disc hero__sub-title">
-                                <span style="font-size: 28px; color : #fff; margin-bottom : 15px;display : block"> Senior Front-End Engineer </span>
+                                <span class="hero-role" style="font-size: 28px; color : #fff; margin-bottom : 15px;display : block"> Senior Front-End Engineer </span>
 
                                 A successful project isn’t about pretty visuals — it’s about structure, clarity, and real user experience.
                                 With <span style="font-size:18px; color:#fff ;margin: 0 5px">+10 years</span> in the software industry, I build front-end systems that scale and last.
